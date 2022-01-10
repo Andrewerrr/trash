@@ -1,0 +1,116 @@
+body {
+    width: 100%;
+    min-width: 320px;
+    max-width: 1250px;
+    margin: 0 auto 0 auto;
+    font-family: Miriam, serif;
+}
+
+main {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-left: 35px;
+}
+
+img {
+    width: 290px;
+    height: 290px;
+
+    display: block;
+    border-radius: 50%;
+
+}
+
+.logo-container {
+    background-color: #235bcc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #ffffff;
+    display: block;
+    font-size: 38px;
+    padding: 10px 5px;
+    text-decoration: none;
+    margin-left: 60px;
+}
+
+.info {
+    list-style: none;
+    font-size: 26px;
+    display: block;
+    color: white;
+    padding-right: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 24px;
+    padding-top: 25px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.staff-change {
+    font-size: 22px;
+    padding: 35px 0 0 35px;
+}
+
+.staff-container {
+    width: 1040px;
+}
+
+.staff-block {
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.staff-card {
+    max-width: 400px;
+    margin: 25px;
+}
+
+.staff-name {
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 10px;
+
+}
+
+.staff-occupation {
+    color: #235bcc;
+    font-size: 28px;
+}
+
+.staff-description {
+    font-size: 18px;
+    max-width: 280px;
+}
+
+.footer-container{
+    background-color: #235bcc;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.fa-facebook-square {
+    padding: 5px;
+    font-size: 18px;
+}
